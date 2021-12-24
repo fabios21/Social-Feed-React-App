@@ -7,7 +7,13 @@ function Body() {
         <div>
             <BodyStyle>
                 <PostsStyle>
-
+                    <div>
+                        <div>
+                            <p>Hi new tweeps & old. Hope you're having fun Love the SO, RTs, and likes. Visit my #kindle #author  ebsite:… https://t.co/VZpaywm8eg</p>
+                            <p>- Author Name</p>
+                        </div>
+                        <p>Posted: Fri Dec 29 19:15:04</p>
+                    </div>
                 </PostsStyle>
                 <ContentStyle>
                     <DivL>

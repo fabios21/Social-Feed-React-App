@@ -27,11 +27,39 @@ export const HeaderStyle = styled.div`
 
     @media (max-width: 374px) {
         background-color: #6424FF;
-        height: 740px;
-        margin-bottom: 160px;
+        height: 565px;
+        margin-bottom: 20px;
         display: flex;
         flex-direction: column;
         align-items: stretch;
+    }
+`;
+
+export const HeadMobile = styled.div`
+    @media (min-width: 1440px) {
+        display: none;
+    }
+        
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        display: none;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        display: none;
+    }
+
+    @media (min-width: 375px) and (max-width: 767px) {
+        display: none;
+    }
+
+    @media (max-width: 374px) {
+        background-color: #6424FF;
+        width: 90%;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 3% 0 3%;
+        text-align: center;
     }
 `;
 
@@ -70,10 +98,12 @@ export const DivL = styled.div`
 
     @media (max-width: 374px) {
         background-color: #6424FF;
-        height: 370px;
-        display: flex;
-        flex-direction: column;
-        padding: 0 7% 0 7%;
+        position: absolute;
+        top: 140px;
+        left: 0px;
+        padding: 10px;
+        margin: 30px 30px 30px 30px;
+        height: 335px;
     }
 `;
 
@@ -119,12 +149,32 @@ export const DivR = styled.div`
     }
 
     @media (max-width: 374px) {
+        position: relative;  
         height: 370px;
-        text-align: right;    
-        background-repeat:no-repeat;
-        background-size: cover;
-        background-image: url('https://s3-alpha-sig.figma.com/img/a521/61d6/5de81ce42749719abd261d8ef2885b07?Expires=1641168000&Signature=SUGayIScvTg~UYDqIRV8lc1MvBQqq3UIiJLIGGC9iDpTXWXDgBmVytdN0SxGEYBlO3Nt88CVNEuloBK~O-HF9ToYxMVL~o5FaqA7hd~6L3gWDFYNm-7Jb3Opgyeg7FHX754SYOiWsOfk8Hs~BBw-SEMYHB4AAIeenDbpfbzVUYB~EoIUe9d1Ix6ip9YewE82mPys021myjuSW5mmKdThWQ56T4ancYYGe9iuwlwaEg9F3osDfFv~4-sk2GDhl8m2YwGo1n7cAUTTrHOG0y4iNI2vITT519El0j~9a1PD6JvToecxvDY~Kx5198jnKbiGJ15LWKi4sf3jYPF3P1n90w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
-        margin-top: 140px
+        text-align: right;
+    }
+`;
+
+export const Div = styled.img`
+    @media (min-width: 1440px) {
+        display: none;
+    }
+
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        display: none;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        display: none;
+    }
+
+    @media (min-width: 375px) and (max-width: 767px) {
+        display: none;
+    }
+
+    @media (max-width: 374px) {
+        height: 435px;
+        width: 100%;
     }
 `;
 
@@ -154,9 +204,31 @@ export const Logo = styled.div`
     }
 
     @media (max-width: 374px) {
+        display: none;
+    }
+`;
+
+export const LogoM = styled.div`
+    @media (min-width: 1440px) {
+        display: none;
+    }
+
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        display: none;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        display: none;
+    }
+
+    @media (min-width: 375px) and (max-width: 767px) {
+        display: none;
+    }
+
+    @media (max-width: 374px) {
         color: white;
-        margin: 25px 0 30px 0;
-        width: 10%;
+        margin: 15px 0 5px 0;
+        justify-content: center;
     }
 `;
 
@@ -179,6 +251,29 @@ export const Img = styled.img`
 
     @media (max-width: 374px) {
         width: 65px;
+    }
+`;
+
+export const ImgM = styled.img`
+    @media (min-width: 1440px) {
+        display: none;
+    }
+
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        display: none;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        display: none;
+    }
+
+    @media (min-width: 375px) and (max-width: 767px) {
+        display: none;
+    }
+
+    @media (max-width: 374px) {
+        width: 85px;
+        justify-content: center;
     }
 `;
 
@@ -212,10 +307,11 @@ export const H1 = styled.h1`
     }
 
     @media (max-width: 374px) {
+        text-align: center;
         color: white;
-        font-size: 18px;
-        padding: 0px;
-        margin: 0px;
+        font-size: 23px;
+        padding: 0 10px 0 10px;
+        margin: 20px 0 10px 0;
     }
 `;
 
@@ -250,7 +346,7 @@ export const H2 = styled.h2`
 
     @media (max-width: 374px) {
         color: white;
-        font-size:16px;
+        font-size:26px;
         padding: 0px;
         margin: 0px;
     }
@@ -290,11 +386,7 @@ export const H3 = styled.p`
     }
 
     @media (max-width: 374px) {
-        color: white;
-        font-size: 7px;
-        padding: 0px;
-        margin: 0px;
-        letter-spacing: 1px;
+        display: none;
     }
 `;
 
@@ -358,7 +450,9 @@ export const P = styled.p`
 
     @media (max-width: 374px) {
         color: white;
-        font-size: 12px;
+        font-size: 14px;
+        text-align: center;
+        padding: 0 15px 0 15px;
     }
 `;
 
@@ -402,10 +496,11 @@ export const Button = styled.button`
     @media (max-width: 374px) {
         background-color: #06F48A;
         border: none;
-        width: 75%;
-        height: 45px;
+        width: 100%;
+        height: 60px;
         color: white;
         padding: 10px 0 10px 0;
+        margin-buttom: 10px;
     }
 `;
 
@@ -443,11 +538,34 @@ export const Button2 = styled.button`
     }
 
     @media (max-width: 374px) {
+        display: none;
+    }
+`;
+
+export const Button2M = styled.button`
+    @media (min-width: 1440px) {
+        display: none;
+    }
+
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        display: none;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        display: none;
+    }
+
+    @media (min-width: 375px) and (max-width: 767px) {
+        display: none;
+    }
+
+    @media (max-width: 374px) {
         background-color: white;
         border: none;
-        width: 30%;
-        height: 50px;
-        margin: 0px 40px 0 0;
+        width: 50%;
+        height: 40px;
+        margin: auto;
+        font-weight: 500;
     }
 `;
 

@@ -1,13 +1,18 @@
 import React from 'react';
-import { DivL, DivR, HeaderStyle, H1, H2, H3, H2black, P, Logo, Button, Button2, Group, Module, Img } from './header.styled';
+import { HeadMobile, DivL, DivR, HeaderStyle, H1, H2, H3, H2black, P, Logo, LogoM, Button, Button2, Button2M, Group, Module, Img, ImgM, Div } from './header.styled';
 
 function Header() {
 
     return (
         <HeaderStyle>
             <div>
+                <HeadMobile>
+                    <LogoM><ImgM src='https://i.ibb.co/cF7JyhV/LogoS.png' alt='logo'/></LogoM>
+                    <Button2M><strong>START QUIZ</strong></Button2M>
+                </HeadMobile>
                 <DivR>
                     <Button2><H2black>START QUIZ</H2black></Button2>
+                    <Div src='https://s3-alpha-sig.figma.com/img/a521/61d6/5de81ce42749719abd261d8ef2885b07?Expires=1641168000&Signature=SUGayIScvTg~UYDqIRV8lc1MvBQqq3UIiJLIGGC9iDpTXWXDgBmVytdN0SxGEYBlO3Nt88CVNEuloBK~O-HF9ToYxMVL~o5FaqA7hd~6L3gWDFYNm-7Jb3Opgyeg7FHX754SYOiWsOfk8Hs~BBw-SEMYHB4AAIeenDbpfbzVUYB~EoIUe9d1Ix6ip9YewE82mPys021myjuSW5mmKdThWQ56T4ancYYGe9iuwlwaEg9F3osDfFv~4-sk2GDhl8m2YwGo1n7cAUTTrHOG0y4iNI2vITT519El0j~9a1PD6JvToecxvDY~Kx5198jnKbiGJ15LWKi4sf3jYPF3P1n90w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA' />
                 </DivR>
                 <DivL>
                     <Logo><Img src='https://i.ibb.co/cF7JyhV/LogoS.png' alt='logo'/></Logo>
