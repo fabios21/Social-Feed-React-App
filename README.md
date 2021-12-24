@@ -13,3 +13,5 @@ Ejecutar `npm i`
 ### Iniciar
 
 Ejecutar `npm start`
+
+<img src="https://github.com/fabios21/Social-Feed-React-App/blob/main/public/Social%20Feed%20React%20App.png?raw=true" />
