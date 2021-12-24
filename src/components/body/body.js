@@ -1,5 +1,5 @@
 import React from 'react';
-import { BodyStyle, PostsStyle, DivR, DivL, Img, ContentStyle, H1, Sub, P, Bar, P2, H2, Button } from './body.styled';
+import { BodyStyle, PostsStyle, DivR, DivL, Img, ContentStyle, H1, Sub, P, Bar, P2, H2, Button, Box, TextBlue, TextPosted } from './body.styled';
 
 function Body() {
 
@@ -8,11 +8,25 @@ function Body() {
             <BodyStyle>
                 <PostsStyle>
                     <div>
-                        <div>
+                        <Box>
                             <p>Hi new tweeps & old. Hope you're having fun Love the SO, RTs, and likes. Visit my #kindle #author  ebsite:… https://t.co/VZpaywm8eg</p>
-                            <p>- Author Name</p>
-                        </div>
-                        <p>Posted: Fri Dec 29 19:15:04</p>
+                            <TextBlue>- Author Name</TextBlue>
+                        </Box>
+                        <TextPosted>Posted: Fri Dec 29 19:15:04</TextPosted>
+                    </div>
+                    <div>
+                        <Box>
+                            <p>Hi new tweeps & old. Hope you're having fun Love the SO, RTs, and likes. Visit my #kindle #author  ebsite:… https://t.co/VZpaywm8eg</p>
+                            <TextBlue>- Author Name</TextBlue>
+                        </Box>
+                        <TextPosted>Posted: Fri Dec 29 19:15:04</TextPosted>
+                    </div>
+                    <div>
+                        <Box>
+                            <p>Hi new tweeps & old. Hope you're having fun Love the SO, RTs, and likes. Visit my #kindle #author  ebsite:… https://t.co/VZpaywm8eg</p>
+                            <TextBlue>- Author Name</TextBlue>
+                        </Box>
+                        <TextPosted>Posted: Fri Dec 29 19:15:04</TextPosted>
                     </div>
                 </PostsStyle>
                 <ContentStyle>

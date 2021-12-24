@@ -30,27 +30,32 @@ export const BodyStyle = styled.div`
 export const PostsStyle = styled.div`
     @media (min-width: 1440px) {
         background-color: #6424FF;
-        height: 770px;
+        height: 720px;
+        padding: 10px;
     }
 
     @media (min-width: 1024px) and (max-width: 1439px) {
         background-color: #6424FF;
-        height: 770px;
+        height: 720px;
+        padding: 10px;
     }
 
     @media (min-width: 768px) and (max-width: 1023px) {
         background-color: #6424FF;
-        height: 360px;
+        height: 720px;
+        padding: 10px;
     }
 
     @media (min-width: 375px) and (max-width: 767px) {
         background-color: #6424FF;
-        height: 860px;
+        height: 750px;
+        padding: 10px;
     }
 
     @media (max-width: 374px) {
         background-color: #6424FF;
-        height: 800px;
+        height: 750px;
+        padding: 10px;
     }
 `;
 
@@ -462,5 +467,101 @@ export const H2 = styled.h2`
         font-size:32px;
         padding: 0px;
         margin: 0px;
+    }
+`;
+
+export const Box = styled.div`
+    @media (min-width: 1440px) {
+        background-color: white;
+        border-radius: 10px;
+        margin: 25px 30px 0 30px;
+        height: 150px;
+        padding: 12px;
+        font-size: 20px;
+    }
+
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        background-color: white;
+        border-radius: 10px;
+        margin: 25px 30px 0 30px;
+        height: 150px;
+        padding: 12px;
+        font-size: 20px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        background-color: white;
+        border-radius: 10px;
+        margin: 25px 30px 0 30px;
+        height: 150px;
+        padding: 12px;
+        font-size: 20px;
+    }
+
+    @media (min-width: 375px) and (max-width: 767px) {
+        background-color: white;
+        border-radius: 10px;
+        margin: 25px 20px 0 20px;
+        height: 160px;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    @media (max-width: 374px) {
+        background-color: white;
+        border-radius: 10px;
+        margin: 25px 20px 0 20px;
+        height: 160px;
+        padding: 12px;
+        font-size: 16px;
+    }
+`;
+
+export const TextBlue = styled.p`
+    @media (min-width: 1440px) {
+        color: #6424FF;
+    }
+
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        color: #6424FF;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        color: #6424FF;
+    }
+
+    @media (min-width: 375px) and (max-width: 767px) {
+        color: #6424FF;
+    }
+
+    @media (max-width: 374px) {
+        color: #6424FF;
+    }
+`;
+
+export const TextPosted = styled.p`
+    @media (min-width: 1440px) {
+        margin: 8px 0 0  27px;
+        color: white;
+    }
+
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        margin: 8px 0 0  27px;
+        color: white;
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        margin: 8px 0 0  27px;
+        color: white;
+    }
+
+    @media (min-width: 375px) and (max-width: 767px) {
+        margin: 8px 0 0 27px;
+        color: white;
+    }
+
+    @media (max-width: 374px) {
+        margin: 8px 0 0 27px;
+        color: white;
     }
 `;

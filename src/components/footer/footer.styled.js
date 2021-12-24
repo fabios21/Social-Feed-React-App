@@ -9,6 +9,14 @@ export const FooterStyle = styled.div`
         background-color: #E5E5E5;
     }
 
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        padding: 70px 20px 15px 20px;
+        background-color: #E5E5E5;
+    }
+
     @media (min-width: 768px) and (max-width: 1023px) {
         display: flex;
         flex-direction: row;
@@ -41,6 +49,11 @@ export const P1 = styled.p`
         font-size: 14px;
     }
 
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        width: 100%;
+        font-size: 14px;
+    }
+
     @media (min-width: 768px) and (max-width: 1023px) {
         width: 100%;
         font-size: 10px;
@@ -67,6 +80,12 @@ export const P2 = styled.p`
         font-size: 14px;
     }
 
+    @media (min-width: 1024px) and (max-width: 1439px) {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
     @media (min-width: 768px) and (max-width: 1023px) {
         width: 100%;
         text-align: center;
@@ -86,6 +105,12 @@ export const P2 = styled.p`
 
 export const P3 = styled.p`
     @media (min-width: 1440px) {    
+        width: 100%;
+        text-align: right;
+        font-size: 14px;
+    }
+
+    @media (min-width: 1024px) and (max-width: 1439px) {
         width: 100%;
         text-align: right;
         font-size: 14px;
